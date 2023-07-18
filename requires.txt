@@ -1,3 +1,4 @@
 math
 collections
+python >= 3.6
 # any version
