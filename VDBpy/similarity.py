@@ -24,8 +24,9 @@ def manhattan_distance(v1, v2):
     for i in range(len(v1)):
         distance += abs(v1[i] - v2[i])
     return distance
-    
-# def jaccard_similarity(list1,list2):
+
+'''
+def jaccard_similarity(list1,list2):
     c1 = Counter(list1)
     c2 = Counter(list2)
     intersection = len(list((c1&c2).elements()))
@@ -33,3 +34,4 @@ def manhattan_distance(v1, v2):
     if union == 0:
         return 1.0 # both lists are empty, so the Jaccard similarity is 1.0
     return intersection / union
+'''
