@@ -17,8 +17,10 @@ class VectorIndex:
             similarities = [cosine_similarity(query_vector,v) for v in self.vectors.values()]
         elif metric == 'manhattan':
             similarities = [manhattan_distance(query_vector,v) for v in self.vectors.values()]
+        
         # elif metric == 'jaccard':
             # similarities = [jaccard_similarity(query_vector,self.vectors[id]) for id in self.ids]
+        
         else:
             raise ValueError('Unsupported similarity metric: ' + metric)
 

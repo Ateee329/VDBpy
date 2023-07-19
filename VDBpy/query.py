@@ -5,4 +5,3 @@ class VectorQuery:
 
     def execute(self, query_vector, k=10):
         return self.index.search(query_vector, k)
-    

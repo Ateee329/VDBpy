@@ -25,7 +25,7 @@ def manhattan_distance(v1, v2):
         distance += abs(v1[i] - v2[i])
     return distance
 
-'''
+'''   
 def jaccard_similarity(list1,list2):
     c1 = Counter(list1)
     c2 = Counter(list2)

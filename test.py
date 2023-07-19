@@ -25,6 +25,7 @@ class TestVectorIndex(unittest.TestCase):
         self.assertEqual(len(result), 3)
         self.assertAlmostEqual(result[0][1], 1.0)  # The cosine similarity of a vector with itself should be 1.0
         # Removed the last two asserts since the order of the other two vectors might vary depending on the implementation
+
     '''
     def test_search_jaccard(self):
         vindex = VectorIndex()
