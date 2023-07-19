@@ -39,5 +39,5 @@ for id, similarity in results:
 ## Installation
 
 ```bash
-pip install vlite
+pip install VDBpy
 ```
