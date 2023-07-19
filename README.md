@@ -3,7 +3,7 @@ A simple vector database allows difference search methods (consine similarity an
 
 
 ## Usage
-view example.py to see detail
+View example.py for details
 
 ```python
 from VDBpy.indexing import VectorIndex
