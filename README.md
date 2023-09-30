@@ -21,6 +21,7 @@ query = VectorQuery(index)
 
 # Execute the query
 results = query.execute([2, 2, 2], k=2)
+
 '''
 # Execute the query using cosine similarity
 results = query.execute([2,2,2], k=2, metric='cosine')
