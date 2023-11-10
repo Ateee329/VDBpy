@@ -28,7 +28,9 @@ results = query.execute([2,2,2], k=2, metric='cosine')
 # Execute the query using Manhattan distance
 results = query.execute([2,2,2], k=2, metric='manhattan')
 # Execute the query using Jaccard similarity
-results = query.execute([2,2,2], k=2, metric='jaccard')
+results = query.execute([2,2,2], k=2, metric='jaccard') # for some reasons jaccard similarity is not working
+# Execute the query using Euclidean distance
+results = query.execute([2,2,2], k=2, metric='euclidean') 
 '''
 
 # Print the results
